@@ -26,7 +26,7 @@
     - Implemented job listings, "Why Work With Us", and application form.
 - **Contact Page** (`/contact`):
     - Implemented contact details, service areas list, and contact/referral form.
-- **Mobile Menu Fix**: Resolved opacity/transparency issue on mobile sidebar.
+- **Mobile Menu**: Implemented modern slide-over drawer with backdrop and solid opacity.
 
 ### 🚧 In Progress
 - **Image Assets**: Custom AI images still need to be generated and integrated to replace placeholders (gradient boxes) in various sections.
