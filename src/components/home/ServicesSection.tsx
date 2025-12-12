@@ -38,9 +38,9 @@ export function ServicesSection() {
         <section className="py-24 bg-muted/50">
             <div className="container-custom">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Our Services</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Our Core Home Health Services</h2>
                     <p className="mt-4 text-lg leading-8 text-muted-foreground">
-                        Comprehensive home health solutions tailored to your unique needs.
+                        We offer a blend of skilled nursing and supportive home health services so clients can receive the right level of care in the comfort of their homes.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:max-w-none lg:grid-cols-3">
@@ -65,7 +65,7 @@ export function ServicesSection() {
                 </div>
                 <div className="mt-12 text-center">
                     <Link href="/services">
-                        <Button variant="outline">View All Services</Button>
+                        <Button variant="outline">Explore All Services</Button>
                     </Link>
                 </div>
             </div>
