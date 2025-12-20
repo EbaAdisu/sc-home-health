@@ -38,7 +38,7 @@ export default function ContactPage() {
 
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
-          
+
           {/* Contact Info & Service Areas */}
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-foreground">
@@ -208,14 +208,14 @@ export default function ContactPage() {
                   Preferred Contact Method
                 </label>
                 <div className="mt-2.5 space-y-2">
-                    <div className="flex items-center gap-x-2">
-                        <input type="radio" id="contact-phone" name="contact-method" value="phone" className="h-4 w-4 border-gray-300 text-primary focus:ring-primary"/>
-                        <label htmlFor="contact-phone" className="text-sm leading-6 text-foreground">Phone</label>
-                    </div>
-                    <div className="flex items-center gap-x-2">
-                        <input type="radio" id="contact-email" name="contact-method" value="email" className="h-4 w-4 border-gray-300 text-primary focus:ring-primary"/>
-                        <label htmlFor="contact-email" className="text-sm leading-6 text-foreground">Email</label>
-                    </div>
+                  <div className="flex items-center gap-x-2">
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone" className="h-4 w-4 border-gray-300 text-primary focus:ring-primary" />
+                    <label htmlFor="contact-phone" className="text-sm leading-6 text-foreground">Phone</label>
+                  </div>
+                  <div className="flex items-center gap-x-2">
+                    <input type="radio" id="contact-email" name="contact-method" value="email" className="h-4 w-4 border-gray-300 text-primary focus:ring-primary" />
+                    <label htmlFor="contact-email" className="text-sm leading-6 text-foreground">Email</label>
+                  </div>
                 </div>
               </div>
               <div>
