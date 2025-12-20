@@ -79,17 +79,21 @@ export function Footer() {
                             <div>
                                 <h3 className="text-sm font-semibold leading-6 text-white">Contact Us</h3>
                                 <ul role="list" className="mt-6 space-y-4">
-                                    <li className="flex items-center gap-2 text-sm leading-6 text-slate-400">
-                                        <MapPin className="h-4 w-4 shrink-0" />
-                                        <span>Maryland, USA</span>
+                                    <li className="flex items-start gap-2 text-sm leading-6 text-slate-400">
+                                        <MapPin className="h-4 w-4 shrink-0 mt-1" />
+                                        <span>2001 Conley Court<br />Silver Spring, Maryland 20904</span>
                                     </li>
                                     <li className="flex items-center gap-2 text-sm leading-6 text-slate-400">
                                         <Phone className="h-4 w-4 shrink-0" />
-                                        <span>(XXX) XXX-XXXX</span>
+                                        <a href="tel:+12026796177" className="hover:text-white transition-colors">
+                                            (202) 679-6177
+                                        </a>
                                     </li>
                                     <li className="flex items-center gap-2 text-sm leading-6 text-slate-400">
                                         <Mail className="h-4 w-4 shrink-0" />
-                                        <span>info@schomehealthcare.com</span>
+                                        <a href="mailto:info@schomehealthcare.com" className="hover:text-white transition-colors">
+                                            info@schomehealthcare.com
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

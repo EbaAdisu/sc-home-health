@@ -61,10 +61,12 @@ export function Header() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Button variant="default" size="sm" className="gap-2">
-                        <Phone className="h-4 w-4" />
-                        (XXX) XXX-XXXX
-                    </Button>
+                    <a href="tel:+12026796177">
+                        <Button variant="default" size="sm" className="gap-2">
+                            <Phone className="h-4 w-4" />
+                            (202) 679-6177
+                        </Button>
+                    </a>
                 </div>
             </div>
 
@@ -117,10 +119,12 @@ export function Header() {
                                         ))}
                                     </div>
                                     <div className="py-6">
-                                        <Button className="w-full gap-2">
-                                            <Phone className="h-4 w-4" />
-                                            Call Now
-                                        </Button>
+                                        <a href="tel:+12026796177" className="w-full block">
+                                            <Button className="w-full gap-2">
+                                                <Phone className="h-4 w-4" />
+                                                (202) 679-6177
+                                            </Button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

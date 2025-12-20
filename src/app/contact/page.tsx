@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
-import { Phone, Mail, Clock, MapPin, Printer } from "lucide-react";
+import { Phone, Mail, Clock, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact – SC Home Health Care Service Agency",
@@ -55,17 +55,20 @@ export default function ContactPage() {
                   <Phone className="h-7 w-6 text-muted-foreground" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-primary text-foreground" href="tel:+15555555555">
-                    (XXX) XXX-XXXX
+                  <a className="hover:text-primary text-foreground" href="tel:+12026796177">
+                    (202) 679-6177
                   </a>
                 </dd>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
-                  <span className="sr-only">Fax</span>
-                  <Printer className="h-7 w-6 text-muted-foreground" aria-hidden="true" />
+                  <span className="sr-only">Address</span>
+                  <MapPin className="h-7 w-6 text-muted-foreground" aria-hidden="true" />
                 </dt>
-                <dd className="text-foreground">(XXX) XXX-XXXX</dd>
+                <dd className="text-foreground">
+                  2001 Conley Court<br />
+                  Silver Spring, Maryland 20904
+                </dd>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
