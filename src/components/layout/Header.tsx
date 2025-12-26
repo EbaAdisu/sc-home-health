@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
@@ -35,8 +36,23 @@ export function Header() {
         <header className="sticky top-0 z-50 w-full border-b bg-white">
             <div className="container-custom flex h-16 items-center justify-between">
                 <div className="flex lg:flex-1">
-                    <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-                        <span className="text-2xl font-bold text-primary">SC Home Health</span>
+                    <Link href="/" className="-m-1.5 p-1.5 flex items-center">
+                        <Image
+                            src="/logos/SC_HHCA_Logo_Horizontal_Transparent.png"
+                            alt="SC Home Health Care Service Agency"
+                            width={180}
+                            height={50}
+                            className="h-10 w-auto hidden lg:block"
+                            priority
+                        />
+                        <Image
+                            src="/logos/SC_HHCA_Logo_Icon_Transparent.png"
+                            alt="SC Home Health Care Service Agency"
+                            width={40}
+                            height={40}
+                            className="h-10 w-auto lg:hidden"
+                            priority
+                        />
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
@@ -93,7 +109,13 @@ export function Header() {
                         >
                             <div className="flex items-center justify-between">
                                 <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
-                                    <span className="text-2xl font-bold text-primary">SC Home Health</span>
+                                    <Image
+                                        src="/logos/SC_HHCA_Logo_Icon_Transparent.png"
+                                        alt="SC Home Health Care Service Agency"
+                                        width={40}
+                                        height={40}
+                                        className="h-10 w-auto"
+                                    />
                                 </Link>
                                 <button
                                     type="button"

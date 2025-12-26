@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 const navigation = {
@@ -35,7 +36,15 @@ export function Footer() {
             <div className="container-custom py-12 md:py-16">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
-                        <span className="text-2xl font-bold text-white">SC Home Health</span>
+                        <Link href="/" className="block">
+                            <Image
+                                src="/logos/SC_HHCA_Logo_Horizontal_Transparent.png"
+                                alt="SC Home Health Care Service Agency"
+                                width={200}
+                                height={60}
+                                className="h-12 w-auto"
+                            />
+                        </Link>
                         <p className="text-sm leading-6 text-slate-400">
                             Compassionate, skilled care in the comfort of your home. Serving Maryland with dedication and excellence.
                         </p>
